@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+.main {
+    display: flex;
+    margin: 35vh;
+}
+
+.sedans {
+    background-color: #e08c33;
+    border: 1px solid transparent;
+    border-radius: 15px 0px 0px 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+.suvs {
+    background-color: #016871;
+    border: 1px solid transparent;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+.luxury {
+    background-color: #003f3e;
+    border: 1px solid transparent;
+    border-radius: 0px 15px 15px 0px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+.logo-img {
+    margin: 50px 25px;
+}
+
+.title {
+    margin: 50px 25px;
+}
+
+p {
+    margin: 50px 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.bottom-1,
+.bottom-2,
+.bottom-3 {
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+input[type="submit"] {
+    color: #e08c33;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 25px;
+    padding: 15px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #FFF;
+    background-color: #e08c33;
+} 
+.bottom-2 input[type="submit"]:hover {
+    color: #FFF;
+    background-color: #016871;
+}
+
+.bottom-3 input[type="submit"]:hover {
+    color: #FFF;
+    background-color: #003f3e;
+}
